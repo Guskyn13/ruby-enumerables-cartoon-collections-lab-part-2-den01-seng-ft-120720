@@ -21,7 +21,7 @@ new_array = []
 end
 new_array
 end
-endsummon_captain_plant
+summon_captain_plant
 
 def long_planeteer_calls(planeteer_calls)
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
