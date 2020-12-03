@@ -8,7 +8,7 @@ def square_array(array)
     new_array << array[index]*array[index]
     index += 1
   end
-  square_array
+  square_array([1,2,3,4,5])
 end
 
 def summon_captain_planet(planeteer_calls)
