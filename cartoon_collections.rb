@@ -18,7 +18,7 @@ array = ["earth", "wind", "fire", "water", "heart"]
   array.each do |array|
     puts "{array.capitalize}!"
 end
-end
+
 summon_captain_planet(["earth", "wind", "fire", "water", "heart"])
 end
 def long_planeteer_calls(planeteer_calls)
