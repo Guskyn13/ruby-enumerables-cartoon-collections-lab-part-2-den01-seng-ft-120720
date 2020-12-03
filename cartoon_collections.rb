@@ -2,13 +2,13 @@ def square_array(array)
   # Use an Enumerable to square every element in the passed in array
   # Return a new array of the results
   new_array = []
-  index = 0
+array.each do |element|
+  new_array << element * element
+end
+new_array
+end
 
-  while index < array.length do
-    new_array << array[index]*array[index]
-    index += 1
-  end
-  square_array([1,2,3,4,5])
+square_array([1,2,3,4])
 end
 
 
