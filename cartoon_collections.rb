@@ -16,7 +16,7 @@ def summon_captain_planet(planeteer_calls)
   # Return a new array of the results
 new_array = []
 
-  small_calls.capitalize do |element|
+  array.capitalize do |element|
     new_array << "#{small_calls}!"
 end
 new_array
