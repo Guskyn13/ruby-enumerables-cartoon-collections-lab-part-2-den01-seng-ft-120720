@@ -16,7 +16,7 @@ describe "./cartoon_collections.rb" do
 
 
       expect(summon_captain_planet(small_calls)).to eq(["Earth!", "Wind!", "Fire!", "Water!", "Heart!"])
-      expect(summon_captain_planet(other_calls)).to eq(["Plants!", "Humans!", "Mushrooms!", "Brains!"])
+
     end
   end
 
