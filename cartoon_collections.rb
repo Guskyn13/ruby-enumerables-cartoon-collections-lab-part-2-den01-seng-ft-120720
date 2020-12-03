@@ -19,7 +19,7 @@ array = ["earth", "wind", "fire", "water", "heart"]
     puts "{array.capitalize}!"
 end
 end
-summon_captain_planet
+summon_captain_planet(array)
 
 def long_planeteer_calls(planeteer_calls)
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
