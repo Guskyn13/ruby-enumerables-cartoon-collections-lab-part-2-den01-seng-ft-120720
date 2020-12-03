@@ -8,13 +8,12 @@ describe "./cartoon_collections.rb" do
   describe "square_array" do
     it "takes in an array of numbers and returns an array of those numbers squared" do
       expect(square_array([1,2,3,4,5])).to eq([1,4,9,16,25])
-      expect(square_array([10, 12])).to eq([100, 144])
     end
   end
 
   describe "summon_captain_planet" do
     it "takes in an array of strings and returns a new array where each string is capitalized and has an exclamation point" do
-      
+
 
       expect(summon_captain_planet(small_calls)).to eq(["Earth!", "Wind!", "Fire!", "Water!", "Heart!"])
       expect(summon_captain_planet(other_calls)).to eq(["Plants!", "Humans!", "Mushrooms!", "Brains!"])
@@ -50,7 +49,7 @@ describe "./cartoon_collections.rb" do
   end
 end
 
-#   
+#
 # end
 
 # describe "takes in an array of strings and" do
@@ -67,4 +66,3 @@ end
 #     expect(long_planeteer_calls(small_calls)).to eq(false)
 #   end
 # end
-
